@@ -50,13 +50,12 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">AI Analytics Dashboard</h3>
+              <h3 className="text-xl font-bold mb-2">Family Travel Tracker Application</h3>
               <p className="text-gray-400 mb-4">
-                ML-powered data visualization platform with predictive analytics
-                and interactive reports.
+                Developed a full-stack web application for families to visualize and manage collective travel histories across global maps.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Python", "TensorFlow", "D3.js", "Flask"].map((tech, key) => (
+                {["HTML/CSS", "JavaScript", "Node.js", "Express.js","PostgreSQL"].map((tech, key) => (
                   <span
                     key={key}
                     className="
@@ -89,13 +88,13 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">E-Commerce Web App</h3>
+              <h3 className="text-xl font-bold mb-2">E-Commerce Analytics Dashboard</h3>
               <p className="text-gray-400 mb-4">
-                Full-stack e-commerce with modern UI, secure payment
-                integration, and customizable product inventory.
+                Developed interactive data visualizations and business KPI tracking
+                using Power Query and Pivot Tables.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Next.js", "TypeScript", "Stripe", "PostgreSQL"].map(
+                {["Power BI", "Microsoft Excel",].map(
                   (tech) => (
                     <span
                       key={tech}
@@ -130,13 +129,12 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">Real-Time Chat App</h3>
+              <h3 className="text-xl font-bold mb-2">Admin Analytics Dashboard</h3>
               <p className="text-gray-400 mb-4">
-                Scalable chat platform supporting real-time messaging, presence,
-                and group chat features.
+              Built a React Admin Dashboard with light/dark modes, interactive charts, and calendar integration using Material UI for enterprise-grade data management..
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Socket.IO", "Express", "React", "Redis"].map((tech, key) => (
+                {["React", "Material UI", "Nivo Charts", "Javascript","HTML/CSS"].map((tech, key) => (
                   <span
                     key={key}
                     className="

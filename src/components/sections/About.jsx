@@ -71,15 +71,16 @@ export const About = () => {
                     Junior Web Developer at OrganizeIn. (2024){" "}
                   </h4>
                   <p>
-                    Assisted in building front-end components and integration , Search Engine Optimisation(SEO).
+                    Assisted in building front-end components and integration, SEO, Social Media Marketing, Collaborated with marketing to align technical goals with business needs.
                   </p>
                 </div>
 
                 
               </div>
             </div>
+          </div>
 
-            <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+          <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                 <h3 className="text-xl font-bold mb-4 text-center"> Skills & Technologies</h3>
                 <div className="flex flex-wrap gap-5 justify-between">
                   
@@ -93,8 +94,6 @@ export const About = () => {
 
                 </div>
             </div>
-            
-          </div>
         </div>
       </RevealOnScroll>
     </section>
